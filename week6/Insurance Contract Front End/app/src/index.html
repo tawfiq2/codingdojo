@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>Product</h1>
+    <p>You have <strong class="balance">loading...</strong> META</p>
+
+    <h1>Buy a Product </h1>
+
+    <label for="Id">Product Id:</label>
+    <input type="number" id="Id" placeholder="e.g. 1 " />
+
+    <label for="Name"> Product Name:</label>
+    <input type="text" id="Name" placeholder="e.g. Iphone " />
+
+    <label for="Price">price:</label>
+    <input type="number" id="Price" placeholder="e.g. 100 " />
+
+
+    <button onclick="App.addproduct()">Buy </button>
+
+    <p id="status"></p>
+    <p>
+      <strong>Hint:</strong> open the browser developer console to view any
+      errors and warnings.
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>
